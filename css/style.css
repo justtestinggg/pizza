@@ -8973,6 +8973,8 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
-.owl-carousel.home-slider {
+.owl-carousel.home-slider,
+.owl-carousel.home-slider .slider-item,
+.owl-carousel.home-slider .slider-text {
   touch-action: pan-y !important;
 }
