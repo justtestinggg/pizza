@@ -53,8 +53,8 @@
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
 	    nav:false,
-            touchDrag: false,   // Desactiva el arrastre táctil
-            pullDrag: false,    // Desactiva el arrastre al soltar
+            touchDrag: true,   // Desactiva el arrastre táctil
+            pullDrag: true,    // Desactiva el arrastre al soltar
 	    autoplayHoverPause: false,
 	    items: 1,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
