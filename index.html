@@ -380,24 +380,20 @@ Así nació <strong>PIZZATA</strong>, una marca que refleja mi dedicación y amo
     			</div>
 	    		<div class="col-md-6 appointment ftco-animate">
 	    			<h3 class="mb-3">Contáctenos</h3>
-	    			<form action="#" class="appointment-form">
-	    				<div class="d-md-flex">
-		    				<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="Nombre">
-		    				</div>
-	    				</div>
-	    				<div class="d-me-flex">
-	    					<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="Apellido">
-		    				</div>
-	    				</div>
-	    				<div class="form-group">
-	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Mensaje"></textarea>
-	            </div>
-	            <div class="form-group">
-	              <input type="submit" value="Send" class="btn btn-primary py-3 px-4">
-	            </div>
-	    			</form>
+	    <form action="enviar.php" method="POST" class="appointment-form">
+  <div class="form-group">
+    <input type="text" name="nombre" class="form-control" placeholder="Tu nombre" required>
+  </div>
+  <div class="form-group">
+    <input type="email" name="correo" class="form-control" placeholder="Tu correo" required>
+  </div>
+  <div class="form-group">
+    <textarea name="mensaje" cols="30" rows="3" class="form-control" placeholder="Tu mensaje" required></textarea>
+  </div>
+  <div class="form-group">
+    <input type="submit" value="Enviar" class="btn btn-primary py-3 px-4">
+  </div>
+</form>
 	    		</div>    			
     		</div>
     	</div>
